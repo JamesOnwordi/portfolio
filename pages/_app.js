@@ -8,17 +8,29 @@ import projects from '../projects.json'
 function MyApp({ Component, pageProps }) {
   console.log(projects)
 
-  const [width,setWidth] = useState('')
-  const [height,setHeight] = useState('')
+  const [width,setWidth] = useState()
+  const [height,setHeight] = useState(0)
+  const [spline,setSpline] = useState() 
 
+  
   useEffect(()=>{
-    console.log("always rendering",height)
-  },[height])
-  const onLoad = (spline) =>{
     console.log(spline)
+    spline?spline._viewportHeight = height:''
+    spline?spline._viewportWidth = width:''
+    console.log(spline)
+    console.log(height+" "+width)
+  },[width])
+  
+  const onLoad = (spline) =>{
+    setSpline(spline)
     console.log(spline._viewportHeight = window.innerHeight)
     spline._viewportWidth = window.innerWidth/2
     console.log(window.innerHeight)
+    // setHeight(e.target.innerHeight)
+    window.addEventListener("resize",(e)=>{
+      setWidth(e.target.innerWidth)
+      
+    })
     // setWidth(window.innerWidth/2)
     setHeight(window.innerHeight)
     
@@ -123,7 +135,7 @@ function MyApp({ Component, pageProps }) {
             
           </div>
           </div>
-          <div className={``}>
+          <div style={{height:{height}, width:{width}}} className="invisible sm:visible" >
             <Spline className='' onLoad={onLoad} scene="https://prod.spline.design/DAypc3NUHt398Ugm/scene.splinecode" />
             {/* <Spline  className='absolute' onLoad={onLoad}  scene="https://prod.spline.design/vua3eadykL8W5wyo/scene.splinecode" /> */}
           </div>
