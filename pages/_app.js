@@ -179,12 +179,12 @@ function MyApp({ Component, pageProps }) {
     
     
   </div>
-  <div className='flex justify-center'>
+  <div className='flex  justify-center'>
     <aside className="   m-6"  >
     <div className='flex justify-center sm:ml-12 sm:mr-12'>
       <div className="container text-sm sm:text-md md:text-xl 2xl:text-2xl bg-gray-800 sm:ml-12 sm:mr-12">
-            <ul className=" justify-center flex flex-wrap ">
-                    <span className=" text-start mb-2 text-center m-5">Java</span>
+            <ul className="text-yellow-400 justify-center flex flex-wrap ">
+                    <span className=" text-yellow-400 text-start mb-2 text-center m-5">Java</span>
                     <span className=" text-start mb-2 text-center m-5">JavaScript</span>
                     <span className=" text-start mb-2 text-center m-5">Python</span>
                     <span className=" text-start mb-2 text-center m-5">Node</span>
