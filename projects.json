@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "Fill Up",
+        "description" : "An app that envelops learning to conserve water the fun way. Created by designers: Jessica Olson Sarah Lee and Developers: Pierre Tulifau, Mahendra Mishra and James Onwordi ",
+        "url": "https://sec-peach.vercel.app/",
+        "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669196086/ezgif.com-gif-maker_5_rnpfja.gif" 
+
+    },
+    {
+        "name" : "Memories",
+        "description" : "Memories is an app that keeps the pictures of important events and provides the user with the option to keep a journal of the event ",
+        "url": "https://astounding-cobbler-d8830e.netlify.app/memories",
+        "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669193770/ezgif.com-gif-maker_1_lyyvdg.gif" 
+
+    },
+    {
+        "name" : "Creatube",
+        "description" : "CreaTube is an app that displays weapons stats, skins and video for a popular first-person shooter game Valaront. It makes use of PostgreSQL, EJS, Express.js and Valaront's API",
+        "url": "https://creatube-jamesonwordi.koyeb.app",
+        "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669194703/ezgif.com-gif-maker_3_sufi6u.gif" 
+
+    },
+    {
+        "name" : "3D Ludo",
+        "description" : "3D-Ludo is a three dimensional board game that makes use of react, react-three-fiber and DOM manipulation "        ,
+        "url": "https://willowy-bublanina-430b9e.netlify.app",
+        "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669195271/ezgif.com-gif-maker_4_c65qam.gif" 
+
+    }
+]
