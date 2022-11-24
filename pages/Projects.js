@@ -1,7 +1,7 @@
 import {Link } from 'next/link';
 import Project from './Project'
 
-import projects from '../Projects.json'
+import projects from '../projects.json'
 
 export default function Projects(){
     
