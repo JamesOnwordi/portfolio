@@ -81,7 +81,7 @@ export default function Home(props){
             
           </div>
           </div>
-          <div s className="invisible w-screen  h-screen sm:visible" >
+          <div  className="invisible w-screen  h-screen sm:visible" >
             <Spline className='' onLoad={onLoad} scene="https://prod.spline.design/DAypc3NUHt398Ugm/scene.splinecode" />
             {/* <Spline  className='absolute' onLoad={onLoad}  scene="https://prod.spline.design/vua3eadykL8W5wyo/scene.splinecode" /> */}
           </div>
