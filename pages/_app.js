@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }) {
   
   useEffect(()=>{
     console.log(spline)
-    spline?spline._viewportHeight = height:''
-    spline?spline._viewportWidth = width:''
+    spline?spline._viewportHeight = height:0
+    spline?spline._viewportWidth = width:0
     console.log(spline)
     console.log(height+" "+width)
   },[width])
