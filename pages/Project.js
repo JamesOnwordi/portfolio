@@ -2,21 +2,26 @@
 export default function Project (props){
     console.log(props)
     return(
-    <div>
-        <div>
-            <a className='flex flex-wrap justify-center w- hover:bg-blue-700' href={`${props.project.url}`} >
-            <div className='flex flex-col justify-between '>
-             <h2 className='text-center text-xl bold m-4'>{props.project.name} </h2> 
-             <div className=' justify-center flex text-center m2 m2 flex items-center'>
-            <p className="hover:text-lg text-sm sm:text-md lg:text-xl sm:w-1/3">{props.project.description}</p>
+       
+            <a className=' flex ' href={`${props.project.url}`} >
+            <div className="flex justify-between flex-col  rounded bg-white hover:bg-yellow-400 drop-shadow-xl hover:drop-shadow-8xl flex-wrap m- items-center justify-center">
+                <div className="flex  justify-center">
+                    <div className=' sm:w-96 '>
+             <h2 className='text-center text-xl bg-blue-800 rounded bold m-4'>{props.project.name} </h2> 
+             <div className=' justify-center flex text-center m2 m2 rounded flex items-center'>
+            <p className="text-lg  bg-blue-800 rounded lg:text-xl ">{props.project.description}</p>
             </div>
              <div><br/></div>
-            </div> 
-            <div className="flex justify-center w-1/2 ">
-                 <img src={""+props.project.media+""}  />
             </div>
+              
+                </div>
+                
+                <div className=" ">
+                 <img src={""+props.project.media+""}  />
+                </div>
+            
+           </div>
              </a>
-        </div>
-    </div>
+        
     )
 }
