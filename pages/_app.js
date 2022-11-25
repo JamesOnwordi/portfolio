@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }) {
        
     {/* me page */}
 <Home setSpline={setSpline} setWidth={setWidth} setHeight={setHeight}/>
-<About/>
+<About className="w-screen"/>
 <Projects/>
 <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
   <div className="flex justify-center items-center p-6 border-b border-gray-300">

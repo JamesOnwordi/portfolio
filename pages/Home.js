@@ -1,25 +1,15 @@
 
-import Spline from '@splinetool/react-spline';
+import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import { useEffect, useState } from 'react';
+import Scene from './Scene';
 
 
 
 
 export default function Home(props){
-    const onLoad = (spline) =>{
-        props.setSpline(spline)
-        console.log(spline._viewportHeight = window.innerHeight)
-        spline._viewportWidth = window.innerWidth/2
-        console.log(window.innerHeight)
-        // setHeight(e.target.innerHeight)
-        window.addEventListener("resize",(e)=>{
-          props.setWidth(e.target.innerWidth)
-          
-        })
-        // setWidth(window.innerWidth/2)
-        props.setHeight(window.innerHeight)
-        
-      }
+    
     return(
         <div className=' flex sm:block'>
         <div className="flex text-blue-700 ">
@@ -37,16 +27,16 @@ export default function Home(props){
         {/* <h1 className="text-5xl text-center font-bold ">
           Based in Canada
         </h1> */}
-        <div className='grid grid-col-2'>
+        <div className='gr'>
           <div >
             <h1 className='text-2xl text-start mb-8 text-center'>
               I am Computer Science graduate with bootcamp experience in Software 
               development. I enjoy solving technical problems, and love the feeling when I arrive at a solution.
             </h1>
             <div>
-            <aside aria-label="Sidebar">
+            <aside aria-label="Sidebar flex ">
               <div>
-                <ul className=" flex justify-center gap-4 ">
+                <ul className=" flex flex-wrap justify-center gap-4 ">
                   <li>
                       <a href="https://github.com/JamesOnwordi" rel="noreferrer" target="_blank" className="flex items-center p-1 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                       <svg height="32"  aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" className="flex-shrink-0  w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" >
@@ -81,8 +71,13 @@ export default function Home(props){
             
           </div>
           </div>
-          <div  className="invisible w-screen  h-screen sm:visible" >
-            <Spline className='' onLoad={onLoad} scene="https://prod.spline.design/DAypc3NUHt398Ugm/scene.splinecode" />
+          <div  className=" w-screen hidden h-screen xl:block" >
+          <Suspense fallback={null}>
+      <Canvas shadows flat linear>
+        <Scene className="  "/>
+        <OrbitControls />
+      </Canvas>
+    </Suspense>
             {/* <Spline  className='absolute' onLoad={onLoad}  scene="https://prod.spline.design/vua3eadykL8W5wyo/scene.splinecode" /> */}
           </div>
           
