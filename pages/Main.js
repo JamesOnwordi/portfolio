@@ -1,4 +1,4 @@
-
+// import Link  from 'next/link';
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -8,8 +8,8 @@ import Scene from './Scene';
 
 
 
-export default function Home(props){
-    
+export default function Main(props){
+  console.log("inside home")
     return(
         <div className=' flex  sm:block'>
         <div className="flex justify-center text-gray-800 ">

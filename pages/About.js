@@ -1,7 +1,9 @@
 
+import Link  from 'next/link';
+// import Link  from 'next/link';
 
 export default function About(){
-
+  console.log("inside about")
     return(
         <div className='flex justify-center items-center sm:h-screen bg-gray-800 ' >
   <div className='flex m-7' >

@@ -4,7 +4,7 @@ import Project from './Project'
 import projects from '../projects.json'
 
 export default function Projects(){
-    
+  console.log("inside o")
     const allProjects = projects.map((project,ind) =>{
         return <Project key={"project"+ind} project={project}> </Project>
       })
