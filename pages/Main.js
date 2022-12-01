@@ -31,6 +31,7 @@ export default function Main(props){
             <h1 className='text-2xl text-start mb-8 text-center'>
               I am Computer Science graduate with bootcamp experience in Software 
               development. I enjoy solving technical problems, and love the feeling when I arrive at a solution.
+              I am a collection of different characters with different level of transparency. I am like a color but can't be described with one word like yellow or green or violet, maybe with enough research I can tell you one day that I am #D34V43 but for now I am a hash code waiting to be encryted. I am James and If I am to describe myself to someone I would say I am friendly, not proud, ready to learn, and a bit reserved 🤭 when I meet new people, but those I know say I talk to much so yh. I am another unique Individual in this world
             </h1>
             <div>
             <aside aria-label="Sidebar flex ">
