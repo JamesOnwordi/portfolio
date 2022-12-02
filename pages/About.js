@@ -23,10 +23,10 @@ export default function About(){
            {/* text about me */}
           <div  >
             <h1 className=' bg--500 md:text-xl font-mono bg-white/0  rounded text-white mb-1 2xl:text-2xl text-left text-md t'>
-              I got introduced to programming in my first year at the university and ever since then, I fell in love with it.
+              To me Software Development is like creating a music piece and coding is like playing a musical instrument, a lot of new skills to learn and different playing styles, but the best part of the whole process to me is being able to work with other developers to create a master piece.
               <p className='m-2'></p>
-              I am always trilled to solve questions that requires me to think outside the box and sometimes take a shower before I get a solution. 
-              <p className='m-2'></p>I believe in learning new thing because that is the only way to find the best version of myself  
+              I love going on hackathons, business trips and anything that gives me the opportunity to meet new people and make new friends. 
+              <p className='m-2'></p> 
             </h1>
           </div>
         </div>
