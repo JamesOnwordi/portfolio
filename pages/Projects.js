@@ -11,15 +11,17 @@ export default function Projects(){
   
       return(
           <div  className="flex justify-center bg-white items-center " >
+            
     <div >
-      <div className='flex justify-center text-white -00 m-6 font-serif text-7xl'>Projects</div>
-    <div className='flex flex-wrap justify-center  grid-cols-2 gap-8 m-8'>
+      <div className='flex justify-center text-white p-4 bg-gray-900 m-6 font-serif text-7xl'>Projects</div>
+    <div className='flex flex-wrap justify-center'>
   
-  
-    <div className='  flex flex-wrap justify-center gap-5'>
+  <div className='w-screen p-1 flex flex-wrap justify-center ' >
       {allProjects}
     </div>
+    
       </div>
+      <div></div>
     </div>
   </div>
       )

@@ -36,7 +36,7 @@ export default function Home() {
       </Head>
       <Main/>
       <About className="w-screen"/>
-      <Projects />
+      <Projects  />
           <div className=''>  
             
           </div>

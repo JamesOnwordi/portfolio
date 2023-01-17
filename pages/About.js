@@ -5,7 +5,7 @@ import Link  from 'next/link';
 export default function About(){
   console.log("inside about")
     return(
-        <div className='flex justify-center items-center sm:h-screen bg-blue-300 ' >
+        <div className='flex justify-center items-center sm:h-screen bg-gray-800 ' >
   <div className='flex m-7' >
   
   <div className="aboutMe flex flex-wrap " >
