@@ -10,9 +10,9 @@ export default function Projects(){
       })
   
       return(
-          <div  className="flex bg-white -800 justify-center items-center " >
-    <div>
-      <div className='flex justify-center text-gray-800 m-6 font-serif text-7xl'>Projects</div>
+          <div  className="flex justify-center bg-white items-center " >
+    <div >
+      <div className='flex justify-center text-white -00 m-6 font-serif text-7xl'>Projects</div>
     <div className='flex flex-wrap justify-center  grid-cols-2 gap-8 m-8'>
   
   

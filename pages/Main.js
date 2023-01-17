@@ -1,5 +1,6 @@
 // import Link  from 'next/link';
 import { Suspense } from "react";
+import { TypeAnimation } from 'react-type-animation';
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { useEffect, useState } from 'react';
@@ -15,23 +16,38 @@ export default function Main(props){
         <div className="flex justify-center text-gray-800 ">
           <div className='flex items-center justify-center h-screen '>
           <div className='container mx-auto px-4'>
-            <p className='my-8'>Hi, I am </p>
+            <p className='my-8 text-2xl'> </p>
 
         <h1 className="text-7xl my-8 font-bold ">
           James Onwordi
         </h1>
-        <h1 className="text-5xl my-8 font- ">
-          Software Engineer
-        </h1>
-        {/* <h1 className="text-5xl text-center font-bold ">
-          Based in Canada
-        </h1> */}
-        <div className='gr'>
+        <div className="ml-12">
+          <TypeAnimation 
+                sequence={[
+                  
+                  'Front End Developer', // Deletes 'Full Stack Developer' and types 'Front End Developer'
+                  1000, // Waits 2s
+                  'Back End Developer', 
+                  1000,
+                  'Full Stack Developer', // Types 'Full Stack Developer'
+                  2000, // Waits 1s
+                  () => {
+                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                  }
+                ]}
+                wrapper="div"
+                cursor={true}
+                repeat={Infinity}
+                style={{ fontSize: '2em' }}
+              />
+              <div className='mt-4'>
           <div >
             <h1 className='text-2xl text-start mr-12 mb-12 text-center'>
-              I am friendly, !proud, reserved Computer Science graduate.
-              
-              <p></p> I am  🤭 when I meet new people, but those I know say I talk to much. I am another unique Individual in this world and would love to connect with more rear gems  
+            I am Computer Science graduate with bootcamp experience in Software Development. I enjoy solving technical problems, and love the feeling when I arrive at a solution.
+            <p className="mt-2"></p> 
+            I am eager for growth and development and always give my best to everything I do. I have experience with Backend, Frontend and Databases.
+            <p className="mt-2"></p>
+            
             </h1>
             <div>
             <aside aria-label="Sidebar flex ">
@@ -67,6 +83,15 @@ export default function Main(props){
             </div>
           </div>
         </div>
+        </div>
+      
+        <h1 className="text-5xl my-8 font- ">
+          
+        </h1>
+        {/* <h1 className="text-5xl text-center font-bold ">
+          Based in Canada
+        </h1> */}
+        
           </div>
             
           </div>
