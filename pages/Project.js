@@ -7,7 +7,7 @@ export default function Project (props){
 <div className="w-1/2 p-8  border-2">
     <div className="p-8 border-2 bg-gray-800 border-blue-100">
     <h5 className="text-2xl mb-4 font-bold text-center tracking-tight text-white ">
-    {props.project.name?props.project.name:""}
+    {props.project.name}
     </h5>
 <div className="flex justify-center">
     <div className="max-w-">

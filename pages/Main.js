@@ -4,7 +4,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { useEffect, useState } from 'react';
-import Scene from './Scene';
 
 
 
@@ -147,15 +146,6 @@ export default function Main(props){
             
           </div>
           </div>
-          {/* <div  className=" w-screen hidden h-screen xl:block" > */}
-          {/* <Suspense fallback={null}>
-      <Canvas shadows flat linear>
-        <Scene className="  "/>
-        <OrbitControls />
-      </Canvas>
-    </Suspense> */}
-            {/* <Spline  className='absolute' onLoad={onLoad}  scene="https://prod.spline.design/vua3eadykL8W5wyo/scene.splinecode" /> */}
-          {/* </div> */}
           
           
       
