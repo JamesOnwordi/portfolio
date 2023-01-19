@@ -1,7 +1,5 @@
 import '../styles/globals.css'
 import Link  from 'next/link';
-import about from './about';
-import Projects from './projects';
 import Home from '.';
 
 
