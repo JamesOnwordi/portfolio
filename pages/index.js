@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import About from './about';
-import Projects from './projects';
+import About from './About';
+import Projects from './Projects';
 import styles from '../styles/Home.module.css'
 // import styles from '../styles/Home.module.css'
 import Spline from '@splinetool/react-spline';
