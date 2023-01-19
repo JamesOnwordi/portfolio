@@ -9,7 +9,6 @@ import { useEffect, useState } from 'react';
 
 
 export default function Main(props){
-  console.log("inside home")
     return(
         <div className=' flex h-screen sm:block'>
           <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900  w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
@@ -66,14 +65,13 @@ export default function Main(props){
           <TypeAnimation 
                 sequence={[
                   
-                  'Front End Developer', // Deletes 'Full Stack Developer' and types 'Front End Developer'
-                  1000, // Waits 2s
+                  'Front End Developer', 
+                  1000, 
                   'Back End Developer', 
                   1000,
-                  'Full Stack Developer', // Types 'Full Stack Developer'
-                  2000, // Waits 1s
+                  'Full Stack Developer',
+                  2000, 
                   () => {
-                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
                   }
                 ]}
                 wrapper="div"

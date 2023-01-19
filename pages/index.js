@@ -4,28 +4,12 @@ import About from './About';
 import Projects from './Projects';
 import styles from '../styles/Home.module.css'
 // import styles from '../styles/Home.module.css'
-import Spline from '@splinetool/react-spline';
 import { useEffect, useState } from 'react';
 import Link  from 'next/link';
 import Main from './Main';
 // import Head from 'next/head';
 
 export default function Home() {
-
-  const [width,setWidth] = useState()
-  const [height,setHeight] = useState(0)
-  const [spline,setSpline] = useState() 
-
-  
-  useEffect(()=>{
-    console.log(spline)
-    spline?spline._viewportHeight = height:0
-    spline?spline._viewportWidth = width:0
-    console.log(spline)
-    console.log(height+" "+width)
-  },[width])
-
-  console.log("in home")
   return (
     <div >
       <Head>
@@ -40,12 +24,6 @@ export default function Home() {
           <div className=''>  
             
           </div>
-    {/* about page */}
-       
-    {/* me page */}
-{/* <Home setSpline={setSpline} setWidth={setWidth} setHeight={setHeight}/> */}
-{/* <About className="w-screen"/> */}
-{/* <Projects/> */}
 
   </div>)
 }

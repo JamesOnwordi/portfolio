@@ -8,7 +8,6 @@ import Home from '.';
 
  
   export default function MyApp({ Component, pageProps }) {
-    console.log("in app ")
     return <div>
         
         <Component {...pageProps} />
