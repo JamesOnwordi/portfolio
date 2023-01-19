@@ -34,7 +34,7 @@ export default function Home() {
         <link rel="icon" href="https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-91.jpg" />
         
       </Head>
-      <Main/>
+      <Main />
       <About className="w-screen"/>
       <Projects  />
           <div className=''>  
