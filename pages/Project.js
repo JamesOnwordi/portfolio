@@ -12,7 +12,7 @@ export default function Project (props){
 <div className="flex justify-center">
     <div className="max-w-">
     <a className='flex drop-shadow-2xl  justify-center ' href={`${props.project?props.project.url:""}`} >
-        <Card  className="hover:bg-white hover:text-gray-700 rounded-none border-radius-none dark:text-gray-300 flex w-fit" imgSrc={""+ props.project?props.project.media:""+ ""} >
+        <Card  className="hover:bg-white hover:text-gray-700 rounded-none border-radius-none dark:text-gray-300 flex w-fit" imgSrc={`${props.project?props.project.media:""}`} >
     
     <p className="font-normal text-xl text-center h-24  ">
     {props.project?props.project.description:""}
