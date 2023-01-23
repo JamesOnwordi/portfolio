@@ -1,6 +1,7 @@
 import { Card } from "flowbite-react";
 
 export default function Project (props){
+    console.log(props.project)
     return(
 
 <div className="w-1/2 p-8  border-2">
