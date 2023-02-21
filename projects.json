@@ -9,7 +9,7 @@
     {
         "name" : "Memories",
         "description" : "Memories is an app that keeps the pictures of important events and provides the user with the option to keep a journal of the event ",
-        "url": "https://astounding-cobbler-d8830e.netlify.app/memories",
+        "url": "https://astounding-cobbler-d8830e.netlify.app/",
         "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669193770/ezgif.com-gif-maker_1_lyyvdg.gif", 
         "skills":"JavaScript, Tailwind, Node, MongoDB, REST"
     },
