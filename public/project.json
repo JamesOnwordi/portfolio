@@ -22,5 +22,11 @@
     "description": "An app designed to promote water conservation awareness, offering interactive and educational features that engage users in sustainable practices.",
     "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669196086/ezgif.com-gif-maker_5_rnpfja.gif",
     "url": "https://sec-peach.vercel.app/"
+  },
+  {
+    "name": "Community Explorer",
+    "description": "A collection of geographic communities displayed in alphabetical order, featuring essential details like community name, image, location, and average home price.",
+    "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1730818214/hoseview-ezgif.com-video-to-gif-converter_nncoak.gif",
+    "url": "https://frontend-coding-test-nine.vercel.app/"
   }
 ]
