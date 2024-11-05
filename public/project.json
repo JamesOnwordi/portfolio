@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Memories",
+    "description": "A journaling app that lets users save and reflect on memorable moments by adding photos and personal notes. Designed to provide a thoughtful space for recording and revisiting life’s special events.",
+    "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669193770/ezgif.com-gif-maker_1_lyyvdg.gif",
+    "url": "https://astounding-cobbler-d8830e.netlify.app/"
+  },
+  {
+    "name": "3D Ludo",
+    "description": "A modern twist on the classic Ludo board game, featuring immersive 3D graphics for an engaging and visually dynamic gameplay experience.",
+    "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669195271/ezgif.com-gif-maker_4_c65qam.gif",
+    "url": "https://willowy-bublanina-430b9e.netlify.app"
+  },
+  {
+    "name": "Creatube",
+    "description": "A unique platform for discovering and showcasing Valorant game skins. Browse through a curated selection, find inspiration, and personalize your in-game experience with an easy-to-navigate design.",
+    "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669194703/ezgif.com-gif-maker_3_sufi6u.gif",
+    "url": "https://creatube-jamesonwordi.koyeb.app"
+  },
+  {
+    "name": "Fill Up",
+    "description": "An app designed to promote water conservation awareness, offering interactive and educational features that engage users in sustainable practices.",
+    "media": "https://res.cloudinary.com/dwgzdayor/image/upload/v1669196086/ezgif.com-gif-maker_5_rnpfja.gif",
+    "url": "https://sec-peach.vercel.app/"
+  }
+]
