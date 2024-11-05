@@ -1,0 +1,46 @@
+[
+  {
+    "position": "Programming and Mathematics Instructor",
+    "company": "Blackboyscode",
+    "location": "Calgary, Canada",
+    "duration": "Mar 2024 - Jun 2024",
+    "responsibilities": [
+      "Taught core programming concepts to 25+ students (grades 6-9) using Python, achieving a 30% boost in class participation and a 20% improvement in test scores.",
+      "Participated in 3+ workshops for professional development, enhancing both technical and teaching skills.",
+      "Monitored student progress through personalized feedback, achieving 100% course completion and helping 75% of students reach their learning goals."
+    ]
+  },
+  {
+    "position": "Front End Developer",
+    "company": "Vosyn",
+    "location": "Remote, Canada",
+    "duration": "Oct 2023 - Feb 2024",
+    "responsibilities": [
+      "Developed an interactive web application using React, translating high-level design concepts into functional user interfaces.",
+      "Created an interactive 3D globe with Three.js, enhancing data visualization for 30+ users and potential investors.",
+      "Collaborated with backend and UI/UX teams across 3 major projects, integrating complex features for seamless user experiences."
+    ]
+  },
+  {
+    "position": "Full Stack Developer",
+    "company": "Sanctvs",
+    "location": "Remote, Canada",
+    "duration": "May 2023 - Oct 2023",
+    "responsibilities": [
+      "Built a full-stack web application using React, Node.js, and MongoDB, implementing key features for the organization’s page.",
+      "Documented research on 2+ emerging technologies, recommending improvements that strengthened security and mitigated potential risks.",
+      "Gained experience with server hosting and GPU optimization, expanding technical capabilities and system performance."
+    ]
+  },
+  {
+    "position": "Database Developer",
+    "company": "Brandon Seniors for Seniors",
+    "location": "Brandon, Canada",
+    "duration": "Jun 2021 - Jan 2022",
+    "responsibilities": [
+      "Led the creation and implementation of a comprehensive database using eTapestry, improving data retrieval efficiency by 70%.",
+      "Collaborated with 5+ stakeholders to develop a scalable database structure, supporting 50+ users and streamlining organizational operations.",
+      "Updated the organization's website and social media platforms, ensuring the community had access to the latest information and resources."
+    ]
+  }
+]
