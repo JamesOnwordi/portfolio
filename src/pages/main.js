@@ -2,26 +2,29 @@ import Image from "next/image";
 
 export default function Main() {
   return (
-    <div id="home" className="flex items-center min-h-screen p-16 bg-white">
-      <div className="w-1/2 pr-8">
+    <div
+      id="home"
+      className="flex items-center justify-center min-h-screen p-16 bg-white"
+    >
+      <div className="lg:w-1/2 pr-8">
         <div className="mb-6">
-          <p className="font-kurale text-4xl mb-3">
+          <p className="font-kurale text-4xl 2xl:text-6xl mb-3">
             Hello I'm{" "}
-            <span className="text-4xl font-spicyRice text-teal-600">
+            <span className="text-4xl 2xl:text-6xl font-spicyRice text-teal-600">
               James Onwordi.
             </span>
           </p>
-          <p className="text-4xl font-aclonica mb-3">
+          <p className="text-4xl 2xl:text-6xl font-aclonica mb-3">
             Software <span className="text-slate-600">Developer</span>
           </p>
-          <p className="text-4xl mb-3 font-kurale">
+          <p className="text-4xl 2xl:text-6xl mb-3 font-kurale">
             Based in{" "}
             <span className="font-aclonica text-amber-600">Calgary</span>
           </p>
         </div>
 
         <div className="mb-8">
-          <p className="font-kurale text-lg text-gray-700">
+          <p className="font-kurale text-lg 2xl:text-2xl text-gray-700">
             I am passionate about building impactful digital solutions. With
             experience in JavaScript, React, and full-stack development, I focus
             on creating intuitive, efficient applications that prioritize user
@@ -32,7 +35,9 @@ export default function Main() {
         </div>
 
         <div className="w-2/3 text-gray-800">
-          <p className="text-3xl mb-4 font-kurale">Connect with me!</p>
+          <p className="text-3xl lg:text-5xl mb-4 font-kurale">
+            Connect with me!
+          </p>
           <div className="flex space-x-3">
             <a
               href="https://github.com/JamesOnwordi"
@@ -74,12 +79,12 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="place-content-center hidden lg:block">
         <Image
           className="rounded-full border-4 border-gray-800"
           src="/mypic.png"
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           alt="James' Pic"
           priority
         />
